@@ -1,4 +1,0 @@
-# mine
-css
-javascript
-html
