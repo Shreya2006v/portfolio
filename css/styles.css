@@ -52,4 +52,21 @@ footer {
     color: white;
     margin-top: 20px;
 }
-
+.profile-pic {
+    width: 80px;  /* Adjust width as needed */
+    height: 90px; /* Adjust height to match width for a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
+.logo-pic {
+    width: 80px;  /* Adjust width as needed */
+    height: 80px; /* Adjust height to match width for a perfect circle */
+    border-radius: 500%; /* Makes the image round */
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
